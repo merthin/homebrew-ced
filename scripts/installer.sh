@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 TMPDIR='/tmp/ced-install'
-FILENAME='ced-cli-1.1.69.tgz'
+FILENAME='ced-cli-latest.tgz'
 
 if ! which node > /dev/null; then echo "Aborting. nodejs not installed. (Please install nodejs first)"; exit; fi
 mkdir -p $TMPDIR
