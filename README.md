@@ -6,7 +6,7 @@ Command line tool for CED.
 ### Installing using HomeBrew (brew)
 
 ```
-brew install merthin/brew/ced
+brew install merthin/ced/cli
 ```
 
 ### Installing in macOS & Linux from source code
