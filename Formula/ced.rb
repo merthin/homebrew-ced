@@ -1,4 +1,4 @@
-class Ced < Formula
+class Cli < Formula
   desc "Merthin Clod/Edge Distribution Command Line Interface"
   homepage "https://merthin.com"
   url "https://github.com/merthin/homebrew-brew/raw/main/src/ced-cli-1.1.69.tgz"
