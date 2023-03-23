@@ -7,7 +7,7 @@ if ! which node > /dev/null; then echo "Aborting. nodejs not installed. (Please 
 mkdir -p $TMPDIR
 cd $TMPDIR
 echo "Downloading latest CED Client Package"
-curl -fsSL https://github.com/merthin/homebrew-brew/raw/main/src/$FILENAME --output $FILENAME
+curl -fsSL https://github.com/merthin/homebrew-ced/raw/main/src/$FILENAME --output $FILENAME
 echo "Uncompressing source"
 tar zxf $FILENAME
 echo "Installing"
