@@ -3,7 +3,7 @@ name: Update
 env:
   CED_ENVIRONMENT: development
   CED_CLI_TOKEN: ${{secrets.CED_CLI_TOKEN}}
-  CED_PROJECT_PATH: .
+  CED_PROJECT_PATH: Formula
 
 on:
   workflow_dispatch:
@@ -14,4 +14,4 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v2
-      - uses: MerthinTechnologies/push-ced-source-action@v1
+      - uses: MerthinTechnologies/push-ced-source-action@dev
