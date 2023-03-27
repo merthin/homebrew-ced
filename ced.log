@@ -1,0 +1,18 @@
+NotLoggedError: Access denied, not authenticated.
+    at TokenResolverService.getTokenOrThrow (/usr/local/lib/node_modules/@ced/cli-dev/lib/services/token-resolver.service.js:33:15)
+    at CliTokenApiClient._tokenOrTokenResolver (/usr/local/lib/node_modules/@ced/cli-dev/lib/cli-dependencies.js:99:111)
+    at CliTokenApiClient.<anonymous> (/usr/local/lib/node_modules/@ced/cli-dev/node_modules/@ced/core-api-client/lib/services/cli-token-api-client.js:40:31)
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/@ced/cli-dev/node_modules/@ced/core-api-client/lib/services/cli-token-api-client.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/@ced/cli-dev/node_modules/@ced/core-api-client/lib/services/cli-token-api-client.js:4:12)
+    at CliTokenApiClient._getToken (/usr/local/lib/node_modules/@ced/cli-dev/node_modules/@ced/core-api-client/lib/services/cli-token-api-client.js:36:16)
+    at CliTokenApiClient.<anonymous> (/usr/local/lib/node_modules/@ced/cli-dev/node_modules/@ced/core-api-client/lib/services/cli-token-api-client.js:29:38)
+    at Generator.next (<anonymous>)
+
+Complete error data:
+{
+  "name": "NotLoggedError",
+  "message": "Access denied, not authenticated.",
+  "stack": "NotLoggedError: Access denied, not authenticated.\n    at TokenResolverService.getTokenOrThrow (/usr/local/lib/node_modules/@ced/cli-dev/lib/services/token-resolver.service.js:33:15)\n    at CliTokenApiClient._tokenOrTokenResolver (/usr/local/lib/node_modules/@ced/cli-dev/lib/cli-dependencies.js:99:111)\n    at CliTokenApiClient.<anonymous> (/usr/local/lib/node_modules/@ced/cli-dev/node_modules/@ced/core-api-client/lib/services/cli-token-api-client.js:40:31)\n    at Generator.next (<anonymous>)\n    at /usr/local/lib/node_modules/@ced/cli-dev/node_modules/@ced/core-api-client/lib/services/cli-token-api-client.js:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/local/lib/node_modules/@ced/cli-dev/node_modules/@ced/core-api-client/lib/services/cli-token-api-client.js:4:12)\n    at CliTokenApiClient._getToken (/usr/local/lib/node_modules/@ced/cli-dev/node_modules/@ced/core-api-client/lib/services/cli-token-api-client.js:36:16)\n    at CliTokenApiClient.<anonymous> (/usr/local/lib/node_modules/@ced/cli-dev/node_modules/@ced/core-api-client/lib/services/cli-token-api-client.js:29:38)\n    at Generator.next (<anonymous>)"
+}

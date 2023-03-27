@@ -1,0 +1,18 @@
+{
+  "projectId": "brewery",
+  "defaultEnvironment": "development",
+  "subsystemId": "tap-updater",
+  "config": {
+    "path": "configuration.json",
+    "format": "json"
+  },
+  "build": {
+    "steps": [
+      {
+        "name": "Build",
+        "command": "echo \"Build\""
+      }
+    ],
+    "artifact": "./src"
+  }
+}
