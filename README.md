@@ -23,4 +23,4 @@ to check that the CED CLI is correctly installed, run:
 ced -V
 ```
 
-The output is the currently installed CED CLI version
+The output is the currently installed CED CLI version.
