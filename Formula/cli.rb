@@ -1,5 +1,5 @@
 class Cli < Formula
-  desc "Merthin Clod/Edge Distribution Command Line Interface"
+  desc "Merthin Cloud/Edge Distribution Command Line Interface"
   homepage "https://merthin.com"
   url "https://github.com/merthin/homebrew-ced/raw/main/src/ced-cli-latest.tgz"
   version "1.1.69"
