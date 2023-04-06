@@ -3,7 +3,7 @@ class Cli < Formula
   homepage "https://merthin.com"
   url "https://github.com/merthin/homebrew-ced/raw/main/src/ced-cli-latest.tgz"
   version "1.1.69"
-  sha256 "1e7e56a26aba2c37bb317038d911a839a13a3d54b0d5db4c1ea8b97d1cbde6c1"
+  sha256 "5e9e9768b26073ace7accbb7f18e4352d292224b1881045ceb4582fa61e22354"
 
   def install
     libexec.install Dir["*"]
